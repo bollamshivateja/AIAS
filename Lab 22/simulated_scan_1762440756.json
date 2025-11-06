@@ -1,0 +1,40 @@
+{
+  "scan_time": "2025-11-06T20:22:36.169733",
+  "results": [
+    {
+      "target": "192.168.1.21",
+      "timestamp": "2025-11-06T20:22:36.167671",
+      "up": true,
+      "ports": [
+        {
+          "port": 80,
+          "protocol": "tcp",
+          "service": "http",
+          "state": "open",
+          "banner": "Apache/2.4.54 (Ubuntu)",
+          "rtt_ms": 16.57
+        },
+        {
+          "port": 53,
+          "protocol": "tcp",
+          "service": "dns",
+          "state": "open",
+          "banner": "BIND 9.16",
+          "rtt_ms": 19.43
+        },
+        {
+          "port": 443,
+          "protocol": "tcp",
+          "service": "https",
+          "state": "open",
+          "banner": "",
+          "rtt_ms": 12.65
+        }
+      ],
+      "summary": {
+        "open_ports": 3,
+        "total_ports_checked": 3
+      }
+    }
+  ]
+}
